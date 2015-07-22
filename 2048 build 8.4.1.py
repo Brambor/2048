@@ -108,8 +108,9 @@ def presyp (pole):
         vysledek.append(nova_radka)
         Radek += 1
     #ANIMACE plán: nejdřív to přejede, pak se to změní, a u toho to "blikne" (o trochu se zvětší a zase zmenší už to nové pole - barva i číslo > celý obrázek)
-    if pole != vysledek: 
-        print(zmeny)
+    if pole != vysledek:
+#        print(zmeny)
+        pass
     return vysledek
 screen.fill(bg_color)
 nove_policko = None
